@@ -1,0 +1,44 @@
+body {
+  height: 100%;
+}
+
+ul li a:hover {
+  color: #00a8ff;
+}
+
+ul li a.active {
+  background: #00a8ff;
+  color: black;
+  text-decoration: none;
+}
+
+ul > li > a {
+  color: black;
+  text-decoration: none;
+}
+.container-fluid > a {
+  text-decoration: none;
+  color: black;
+}
+.navbar {
+  background: #ccccff;
+  padding: 5px;
+  margin-bottom: 30px;
+}
+
+.hero-text {
+  height: 300px;
+  padding: 60px;
+}
+
+.hero-email {
+  margin-right: 10px;
+}
+
+.user-detail {
+  font-weight: bold;
+}
+
+.user-info {
+  background: #eee;
+}
