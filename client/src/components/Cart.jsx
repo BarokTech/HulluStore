@@ -11,14 +11,20 @@ function Cart() {
   };
 
   return (
-    <div>
-      <h4>Items:</h4>
-      {cartContent.map((content) => (
-        <CartItem key={content.id} id={content.id} />
-      ))}
-      <button onClick={handleCheckOut} className="bg-primary text-white ">
-        Check out
-      </button>
+    <div className="container mt-5">
+      <h4>Your Cart</h4>
+      <div className="card">
+        <ul className="list-group list-group-flush">
+          {cartContent.map((content) => (
+            <CartItem key={content.id} id={content.id} />
+          ))}
+        </ul>
+        <div className="card-body">
+          <button onClick={handleCheckOut} className="btn btn-primary">
+            Check out
+          </button>
+        </div>
+      </div>
     </div>
   );
 }

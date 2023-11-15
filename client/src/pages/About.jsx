@@ -1,8 +1,8 @@
 function About() {
   return (
     <>
-      <div>
-        <h3>About Us</h3>
+      <div className="container mt-5">
+        <h3 className="mb-4">About Us</h3>
         <p>
           Welcome to HulluStore, your one-stop-shop for all things fashion,
           electronics, and more. Our mission is to provide you with the latest
@@ -31,7 +31,7 @@ function About() {
           Thank you for choosing HulluStore as your preferred shopping
           destination. We hope you enjoy our products and services as much as we
           enjoy providing them to you. Shop with us today and experience the
-          Gudi difference!
+          HulluStore difference!
         </p>
       </div>
     </>

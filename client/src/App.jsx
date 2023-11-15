@@ -48,10 +48,10 @@ function App() {
     <UserContext.Provider value={{ currentUser, setCurrentUser }}>
       <CartContext.Provider value={{ cartContent, setCartContent }}>
         {
-          <div>
+          <div className="d-flex flex-column min-vh-100">
             <Navbar />
-            <div className="row " style={{ marginBottom: 330 }}>
-              <div className="col-8">
+            <div className="flex-grow-1">
+              <div>
                 <Routes>
                   <Route path="/" exact element={<HomePage />} />
                   <Route path="/about" element={<About />} />
